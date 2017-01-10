@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information for address:"
+        android:textSize="30dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Address:"
+        android:textColor="#000000"
+        android:paddingLeft="15dp"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/viewAddress"
+    android:textSize="15dp"
+    android:paddingLeft="15dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Contact:"
+        android:textColor="#000000"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewContact"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Phone #:"
+        android:textColor="#000000"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewPhone"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Make:"
+        android:textColor="#000000"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewMake"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Size:"
+        android:textColor="#000000"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewSize"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Serial #:"
+        android:textColor="#000000"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewSerial"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Service:"
+        android:textColor="#000000"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewService"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Location:"
+        android:textColor="#000000"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewLocation"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Report To:"
+        android:textColor="#000000"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewReport"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Due Date:"
+        android:textColor="#000000"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewDue"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="View all existing tests at this location"
+        android:layout_gravity="center"
+        android:id="@+id/viewTest" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Add a new test at this location"
+        android:layout_gravity="center"
+        android:id="@+id/addTest" />
+</LinearLayout>
+</ScrollView>

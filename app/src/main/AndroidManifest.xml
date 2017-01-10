@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.rpz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rpz_logo"
+        android:label="RPZ Testing"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <supports-screens android:xlargeScreens="true" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddressList"
+            android:label= "Address List">
+        </activity>
+        <activity android:name=".AddAddress"
+            android:label= "Add New Address">
+        </activity>
+        <activity android:name=".AddressView"
+            android:label="Address View">
+            </activity>
+        <activity android:name=".AddTest"
+            android:label="Add New Test">
+            </activity>
+        <activity android:name=".TestList"
+            android:label="Test List">
+        </activity>
+        <activity android:name=".TestView"
+            android:label="Test View">
+
+        </activity>
+    </application>
+
+</manifest>

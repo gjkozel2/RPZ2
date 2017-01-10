@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "165829223908",
+    "firebase_url": "https://rpz-testing.firebaseio.com",
+    "project_id": "rpz-testing",
+    "storage_bucket": "rpz-testing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165829223908:android:fc9f9b7075bc5e6d",
+        "android_client_info": {
+          "package_name": "com.example.android.rpz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165829223908-aiir6sgb5lmkmh9oifncrthbu9oi8689.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeLQGfocmjA3E4YnYGEqO_njuHrJGPkcI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
